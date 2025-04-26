@@ -56,7 +56,7 @@ function AiChat({isChatFullOpen, setIsChatFullOpened}:AiChat) {
           placeholder="Ask your question here.."
           className="w-full p-3 pr-12 border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-400 text-sm"
         />
-        <button className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-blue-500">
+        <button name='send' className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-blue-500">
           <Send className="w-5 h-5" />
         </button>
       </div>
