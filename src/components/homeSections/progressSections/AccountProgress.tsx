@@ -2,6 +2,7 @@
 import React from 'react'
 import CircularProgress from '@/components/charts/CircularProgress'
 import { CheckCircle } from 'lucide-react'
+import Image from 'next/image'
 
 function AccountProgress() {
   return (
@@ -21,21 +22,21 @@ function AccountProgress() {
               <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               Profile Setup
             </div>
-            <img src={"/icons/checkicon.svg"}/>
+            <Image alt='icon' src={"/icons/checkicon.svg"} height={16} width={16}/>
           </li>
           <li className="flex items-center justify-between">
             <div className="flex items-center gap-2 text-gray-700">
               <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               Initial Training
             </div>
-            <img src={"/icons/checkicon.svg"}/>
+            <Image alt='icon' src={"/icons/checkicon.svg"} height={16} width={16}/>
           </li>
           <li className="flex items-center justify-between">
             <div className="flex items-center gap-2 text-gray-700">
               <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               Legal Documents
             </div>
-            <img src={"/icons/checkicon.svg"}/>
+            <Image alt='icon' src={"/icons/checkicon.svg"} height={16} width={16}/>
           </li>
         </ul>
       </div>
@@ -49,14 +50,14 @@ function AccountProgress() {
               <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               Financial Integration
             </div>
-            <img src={"/icons/checkicon.svg"} className='opacity-40'/>
+            <Image alt='icon' src={"/icons/checkicon.svg"} className='opacity-40' width={16} height={16}/>
           </li>
           <li className="flex items-center justify-between">
             <div className="flex items-center gap-2 text-gray-700">
               <div className="w-2 h-2 bg-gray-300 rounded-full"></div>
               Final Review
             </div>
-            <img src={"/icons/checkicon.svg"} className='opacity-40'/>
+            <Image alt='icon' src={"/icons/checkicon.svg"} className='opacity-40' width={16} height={16}/>
           </li>
         </ul>
       </div>
