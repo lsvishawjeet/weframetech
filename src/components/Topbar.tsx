@@ -10,7 +10,10 @@ export default function Topbar() {
 
   return (
     <div className='bg-white shadow-sm py-3 px-6 flex justify-between sm:justify-end items-center gap-5 w-full'>
+
+      {/* button to open sidebar (for mobile devices only) */}
       <button className='sm:hidden flex' onClick={()=>setSideBarOpen()}><AlignJustify/></button>
+
         <div className='flex justify-end gap-5'>
         <button name="settings" className='text-gray-500 hover:text-gray-700'>
             <Settings className='w-5 h-5' name='settings'/>

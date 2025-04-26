@@ -25,6 +25,7 @@ function AiChat({isChatFullOpen, setIsChatFullOpened}:AiChat) {
         Welcome to the AI Chat Assistant
       </h2>
 
+      {/* Button to expand or collapse chat box */}
       <button
         className="bg-[#e9eff6] w-7 h-7 flex items-center justify-center rounded-full absolute top-2 right-7"
         onClick={() => setIsChatFullOpened(!isChatFullOpen)}
@@ -50,6 +51,7 @@ function AiChat({isChatFullOpen, setIsChatFullOpened}:AiChat) {
         )}
       </button>
 
+      {/* user input box*/}
       <div className="relative w-full max-w-3xl">
         <input
           type="text"

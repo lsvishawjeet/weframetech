@@ -19,6 +19,7 @@ function Sidebar() {
 
   const activeItem = "Home";
 
+  // set sidebar open / close or check globally 
   const {isSideBarOpen, setSideBarOpen, setSideBarClose} = useStore()
 
   return (

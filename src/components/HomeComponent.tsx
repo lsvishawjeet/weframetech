@@ -7,7 +7,6 @@ import FinancialWellbeing from './homeSections/progressSections/FinancialWellbei
 import KeyInsights from './homeSections/progressSections/KeyInsights';
 import ProspectLeads from './homeSections/progressSections/ProspectLeads';
 import TotalFranchises from './homeSections/progressSections/TotalFranchises';
-import { motion } from 'framer-motion';
 
 function HomeComponent() {
     const [isChatFullOpen, setIsChatFullOpened] = useState(false);

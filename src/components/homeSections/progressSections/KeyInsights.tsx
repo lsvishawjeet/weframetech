@@ -32,6 +32,7 @@ function KeyInsights() {
 
       {/* Divider */}
       <div className="border-t my-4 border-gray-200"></div>
+      
       <div className="bg-gray-50 p-4 rounded-lg">
         <p className="text-sm font-medium text-gray-800 mb-2">Feedback</p>
         <div className="flex items-start text-sm text-gray-700">

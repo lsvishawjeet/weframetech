@@ -10,10 +10,12 @@ function AccountProgress() {
     <div className="bg-white rounded-xl shadow p-6 h-full flex flex-col justify-around">
       <h2 className="text-center text-lg font-semibold text-gray-800 mb-4">Account Progress</h2>
 
+      {/* Progress chart  */}
       <div className="flex justify-center mb-6 pb-6 border-b border-gray-200">
         <CircularProgress percentage={85} />
       </div>
 
+      {/* completed steps  */}
       <div className="mb-4 bg-gray-50 p-4 rounded-lg">
         <h3 className="text-sm font-semibold text-gray-700 mb-3">Steps Completed</h3>
         <ul className="space-y-2 text-sm"> 
