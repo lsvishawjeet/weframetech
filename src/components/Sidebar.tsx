@@ -30,16 +30,7 @@ function Sidebar() {
             const isActive = item === activeItem;
 
             return (
-              <motion.div
-                initial={{
-                  opacity: 0,
-                }}
-                animate={{
-                  opacity: 1,
-                }}
-                transition={{
-                  duration: 1,
-                }}
+              <div
                 key={index}
                 className="relative"
               >
@@ -58,7 +49,7 @@ function Sidebar() {
                     {"3"}
                   </span>
                 )}
-              </motion.div>
+              </div>
             );
           })}
         </div>
@@ -70,18 +61,7 @@ function Sidebar() {
 
       {/* for small devices */}
       {isSideBarOpen && (
-        <motion.div
-          initial={{
-            opacity: 0.5,
-            x: -500,
-          }}
-          animate={{
-            opacity: 1,
-            x: 0,
-          }}
-          transition={{
-            duration: 0.5,
-          }}
+        <div
           className="bg-[#175c7b] h-screen w-64 flex-col justify-between px-4 sm:hidden flex absolute z-50"
         >
           <div className="flex flex-col gap-1 pt-5 relative">
@@ -114,7 +94,7 @@ function Sidebar() {
           <button className="px-4 py-2 text-[#9bb4bf] text-sm hover:text-white cursor-pointer w-full text-left">
             Logout
           </button>
-        </motion.div>
+        </div>
       )}
     </>
   );

@@ -13,10 +13,7 @@ function HomeComponent() {
     const [isChatFullOpen, setIsChatFullOpened] = useState(false);
 
     return (
-        <motion.div 
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{duration: 1}}
+        <div 
         className="flex-1 overflow-x-hidden overflow-y-auto">
             {/* Top Section */}
             <div
@@ -50,7 +47,7 @@ function HomeComponent() {
                     <AiChat isChatFullOpen={isChatFullOpen} setIsChatFullOpened={setIsChatFullOpened} />
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
 }
 
